@@ -1,6 +1,6 @@
 import AboutSection from "../components/AboutSection";
 import CarouselContainer from "../components/CarouselContainer";
-import ContractSection from "../components/ContractSection";
+import ContractSection from "../components/ContactSection";
 import MenuSection from "../components/MenuSection";
 
 export default function HomePage(){
