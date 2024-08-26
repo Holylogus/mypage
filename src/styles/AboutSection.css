@@ -1,6 +1,27 @@
 @media only screen and (max-width: 576px) {
     #AboutSection{
-        height: 250px;
+        height: max-content;
         background-color: #16588E;
+        text-align: center;
+        padding-top: 2vh;
+        padding-left: 10px;
+        padding-right: 10apx;
+        h1{
+            font-size: 12pt;
+            font-weight: bold;
+            
+        }
+        h2{
+            padding-top: 0.5vh;
+            font-size: 10pt;
+            
+        }
+        p{
+            font-size: 10pt;
+            padding: 2px;
+        }
+        .btn{
+            margin-bottom: 2vh;
+        }
     }
 }
