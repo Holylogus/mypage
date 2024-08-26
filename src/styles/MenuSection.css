@@ -1,0 +1,39 @@
+@media only screen and (max-width: 576px) {
+    #MenuSection{
+        height: max-content;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        .card{
+            height: 25vh;
+            max-width: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 5vh;
+            margin-bottom: 5vh;
+            background-color: #E7222E;
+        }
+        .card-img-top{
+            height: 50px;
+            max-width: 50px;
+            align-self: center;
+        }
+        .card-text{
+            text-align: center;
+            color: black;
+            font-size: 10pt;
+        }
+        
+        .card-title{
+            text-align: center;
+            color: black;
+            padding-bottom: 0;
+            font-size: 10pt;
+            font-weight: bolder;
+        }
+    }
+
+}

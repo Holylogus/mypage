@@ -1,0 +1,6 @@
+@media only screen and (max-width: 576px) {
+    #AboutSection{
+        height: 250px;
+        background-color: #16588E;
+    }
+}
