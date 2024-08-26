@@ -1,8 +1,35 @@
-.navbar-brand{
-    padding-left: 1rem;
+
+@font-face {
+    font-family: Oasis;
+    src: url("../fonts/Oasis-BW0JV.ttf");
 }
-.nav-link span{
-    color: white;
-    padding: 0.5rem;
-    font-size: large;
-}
+@media only screen and (max-width: 576px) {
+    #Navigation{  
+   
+        .navbar-brand{
+            padding-left: 1rem;
+            font-size: medium;
+            font-family: "Oasis";
+        }
+        .nav-link span{
+            color: white;
+            padding: 0.5rem;
+            font-size: large;
+            font-size: small;
+        }
+        .nav-item{
+            text-decoration: none;
+            color: white;
+            padding-right: 0.6rem;
+            font-size: small;
+        }
+        
+        .btn{
+            margin-right: 0.3rem;
+            font-size: small;
+        }
+    }
+  }
+
+
+
