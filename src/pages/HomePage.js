@@ -12,7 +12,7 @@ export default function HomePage(){
             <AboutSection/>
             <ContractSection/>
             <footer>
-                <span>Footer</span>
+                <span>Made by Hamar Patrik</span>
             </footer>
         </div>
     )

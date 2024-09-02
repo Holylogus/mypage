@@ -20,6 +20,7 @@
             height: 50px;
             max-width: 50px;
             align-self: center;
+            padding-top: 2px;
         }
         .card-text{
             text-align: center;

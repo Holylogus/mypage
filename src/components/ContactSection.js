@@ -1,8 +1,8 @@
-import "../styles/ContactSection.css"
-import i1 from "../icons/icons8-facebook-48.png"
-import i2 from "../icons/icons8-instagram-48.png"
-import i3 from "../icons/icons8-tiktok-48.png"
-import { Image } from 'react-bootstrap';
+import "../styles/ContactSection.css";
+import i1 from "../icons/icons8-facebook-48.png";
+import i2 from "../icons/icons8-instagram-48.png";
+import i3 from "../icons/icons8-tiktok-48.png";
+import { Image } from "react-bootstrap";
 
 export default function ContactSection() {
   return (
@@ -24,11 +24,11 @@ export default function ContactSection() {
         >
           <Image src={i1} />
         </a>
-        <a class="p-4 pb-3" href="/" >
+        <a class="p-4 pb-3" href="/">
           <Image src={i2} />
         </a>
         <a class="p-4 pb-3" href="/">
-        <Image src={i3} />
+          <Image src={i3} />
         </a>
       </div>
     </div>

@@ -1,9 +1,29 @@
+@font-face {
+    font-family: Oasis;
+    src: url("../fonts/Oasis-BW0JV.ttf");
+}
+
 @media only screen and (max-width: 576px) {
-    #ContactSectrion{
-        .PublicMediaContainer{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
+    #ContactSection{
+        background-color: black;
+        color: white;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 10px;
+        h1{
+            font-family: Oasis;
+        }
+        h2{
+            font-weight: bold;
+        }
+        strong{
+            color: #E7222E;
+        }
+        .PublicMediaContainer{ 
+            img{
+                height: 50px;
+                width: 50px;
+            }
         }
     }
     
