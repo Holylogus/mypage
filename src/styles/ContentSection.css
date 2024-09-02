@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Oasis;
+    src: url("../fonts/Oasis-BW0JV.ttf");
+}
+
+@media only screen and (max-width: 576px) {
+    #ContentSection{
+        background-color: #16588E;
+        padding: 1rem;
+
+        h2{
+            color: #E7222E;
+            font-size: large;
+        }
+        p{
+            font-size: small;
+        }
+    }
+}

@@ -1,6 +1,7 @@
 import AboutSection from "../components/AboutSection";
 import CarouselContainer from "../components/CarouselContainer";
 import ContractSection from "../components/ContactSection";
+import FooterSection from "../components/FooterSection";
 import MenuSection from "../components/MenuSection";
 
 export default function HomePage(){
@@ -11,9 +12,7 @@ export default function HomePage(){
             <MenuSection/>
             <AboutSection/>
             <ContractSection/>
-            <footer>
-                <span>Made by Hamar Patrik</span>
-            </footer>
+            <FooterSection/>
         </div>
     )
 }
