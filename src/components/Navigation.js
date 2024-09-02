@@ -20,8 +20,12 @@ export default function Navigation(){
             <NavDropdown.Item eventKey="4.2" onClick={()=>{
                 navigate("/MotorGeneral")
             }}>Motorgenerál</NavDropdown.Item>
-            <NavDropdown.Item eventKey="4.3">Diagnosztika</NavDropdown.Item>
-            <NavDropdown.Item eventKey="4.4">Karbantartás</NavDropdown.Item>
+            <NavDropdown.Item eventKey="4.3" onClick={()=>{
+                navigate("/Diagnostic")
+            }}>Diagnosztika</NavDropdown.Item>
+            <NavDropdown.Item eventKey="4.4" onClick={()=>{
+                navigate("/Maintence")
+            }}>Karbantartás</NavDropdown.Item>
            </NavDropdown>
            <Nav.Item>
             Kapcsolat

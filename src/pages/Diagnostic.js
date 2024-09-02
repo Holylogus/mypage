@@ -1,13 +1,13 @@
 import CarouselContainer from "../components/CarouselContainer";
 import ContactSection from "../components/ContactSection";
+import DiagnosticContent from "../components/DiagnosticContent";
 import FooterSection from "../components/FooterSection";
-import ServiceContent from "../components/ServiceContent";
 
-export default function AutoService() {
+export default function Diagnostic() {
     return(
         <>
         <CarouselContainer/>
-        <ServiceContent/>
+        <DiagnosticContent/>
         <ContactSection/>
         <FooterSection/>
         </>
