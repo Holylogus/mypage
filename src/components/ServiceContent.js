@@ -1,7 +1,7 @@
 import "../styles/ContentSection.css";
 
 
-export default function ContentSection() {
+export default function ServiceContent() {
     return(
        <div id='ContentSection'>
             <h2>Fékszervíz</h2>

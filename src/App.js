@@ -5,6 +5,7 @@ import GuestLayout from './layouts/GuestLayout';
 import HomePage from './pages/HomePage';
 import Login from './pages/Login';
 import AutoService from './pages/AutoService';
+import MotorGeneral from './pages/MotorGeneral';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route index element={<HomePage/>}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/autoservice' element={<AutoService/>}/>
+        <Route path='/MotorGeneral' element={<MotorGeneral/>}/>
       </Route>
     </Routes>
   

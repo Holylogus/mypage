@@ -1,14 +1,14 @@
 import CarouselContainer from "../components/CarouselContainer";
-import ContractSection from "../components/ContactSection";
+import GeneralContent from "../components/GeneralContent";
+import ContactSection from "../components/ContactSection";
 import FooterSection from "../components/FooterSection";
-import ServiceContent from "../components/ServiceContent";
 
-export default function AutoService() {
+export default function MotorGeneral() {
     return(
         <>
         <CarouselContainer/>
-        <ServiceContent/>
-        <ContractSection/>
+        <GeneralContent/>
+        <ContactSection/>
         <FooterSection/>
         </>
     )
