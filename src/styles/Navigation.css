@@ -26,7 +26,11 @@
         
         .btn{
             margin-right: 0.3rem;
+            margin-top: 0.1vh;
             font-size: small;
+        }
+        a{
+            text-decoration: none;
         }
     }
   }

@@ -19,15 +19,15 @@ export default function ContactSection() {
       </p>
       <div className="PublicMediaContainer">
         <a
-          class="p-4 m-3"
+          className="p-4 m-3"
           href="https://www.facebook.com/profile.php?id=100090888117425"
         >
           <Image src={i1} />
         </a>
-        <a class="p-4 pb-3" href="/">
+        <a className="p-4 pb-3" href="/">
           <Image src={i2} />
         </a>
-        <a class="p-4 pb-3" href="/">
+        <a className="p-4 pb-3" href="/">
           <Image src={i3} />
         </a>
       </div>
