@@ -9,11 +9,11 @@ export default function Navigation(){
     
     return(
         <div id='Navigation'>
-        <Navbar expand="lg" bg="dark" variant="dark">
+        <Navbar expand="true" bg="dark" variant="dark">
            <Navbar.Brand>
             <Nav.Link href="/">HD Gargae</Nav.Link>
            </Navbar.Brand>
-           <NavDropdown title="Szervíz" id="nav-dropdown" menuVariant='dark'>
+           <NavDropdown title="Szervíz" id="nav-dropdown" menuVariant='dark' >
             <NavDropdown.Item eventKey="4.1" onClick={()=>{
                 navigate("/autoservice")
             }}>Autó Szervíz</NavDropdown.Item>

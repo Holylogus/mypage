@@ -20,6 +20,53 @@
             color: #E7222E;
         }
         .PublicMediaContainer{ 
+            display: flex;
+            justify-content: space-evenly;
+            img{
+                height: 50px;
+                width: 50px;
+            }
+        }
+    }
+    
+}
+
+@media only screen and (min-width: 576px) {
+    #ContactSection{
+        background-color: black;
+        color: white;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 10px;
+        display: grid;
+        grid-template-columns: 2;
+        grid-template-rows: 3;
+        .title{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            text-align: center;
+            padding-bottom: 1rem;
+        }
+        .contactInfo{
+            padding-left: 2rem;
+        }
+        .openInfo{
+            padding-left: 2rem;
+        }
+        h1{
+            font-family: Oasis;
+        }
+        h2{
+            font-weight: bold;
+        }
+        strong{
+            color: #E7222E;
+        }
+        .PublicMediaContainer{ 
+            grid-column-start: 1;
+            grid-column-end: 3;
+            display: flex;
+            justify-content: space-evenly;
             img{
                 height: 50px;
                 width: 50px;

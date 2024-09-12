@@ -1,7 +1,9 @@
+import "../styles/Footer.css"
+
 export default function FooterSection() {
   return (
-    <footer>
-      <span>Made by Hamar Patrik</span>
+    <footer id="FooterSection">
+      <p>Website by:<span>Hamar Patrik</span></p>
     </footer>
   );
 }
