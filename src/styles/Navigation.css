@@ -70,5 +70,74 @@
     }
   }
 
+  @media only screen and (min-width: 768px) {
+    #Navigation{  
+        .navbar{
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+        .navbar-brand{
+            padding-left: 1rem;
+            font-size: large;
+            font-family: "Oasis";
+        }
+        .nav-link span{
+            color: white;
+            padding: 0.5rem;
+            font-size: large;
+            font-size: medium;
+        }
+        .nav-item{
+            text-decoration: none;
+            color: white;
+            padding-right: 0.6rem;
+            font-size: medium;
+        }
+        
+        .btn{
+            margin-right: 0.3rem;
+            margin-top: 0.1vh;
+            font-size: medium;
+        }
+        a{
+            text-decoration: none;
+        }
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    #Navigation{  
+        .navbar{
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+        .navbar-brand{
+            padding-left: 1rem;
+            font-size: x-large;
+            font-family: "Oasis";
+        }
+        .nav-link span{
+            color: white;
+            padding: 0.5rem;
+            font-size: x-large;
+            font-size: medium;
+        }
+        .nav-item{
+            text-decoration: none;
+            color: white;
+            padding-right: 0.6rem;
+            font-size: larger;
+        }
+        
+        .btn{
+            margin-right: 0.3rem;
+            margin-top: 0.1vh;
+            font-size: medium;
+        }
+        a{
+            text-decoration: none;
+        }
+    }
+  }
 
 

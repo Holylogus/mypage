@@ -6,3 +6,27 @@
     }
 }
 
+@media only screen and (min-width: 576px) {
+    #CarouselContainer{
+        .carousel-item{
+            height: 25rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #CarouselContainer{
+        .carousel-item{
+            height: 30rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #CarouselContainer{
+        .carousel-item{
+            height: 80vh;
+        }
+    }
+}
+

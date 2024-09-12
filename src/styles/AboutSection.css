@@ -9,16 +9,18 @@
         h1{
             font-size: 12pt;
             font-weight: bold;
+            color: #E7222E;
             
         }
         h2{
             padding-top: 0.5vh;
             font-size: 10pt;
-            
+            color: #E7222E;
         }
         p{
             font-size: 10pt;
             padding: 2px;
+            color: whitesmoke;
         }
         .btn{
             margin-bottom: 2vh;
@@ -37,19 +39,84 @@
         h1{
             font-size: 12pt;
             font-weight: bold;
-            
+            color: #E7222E;
         }
         h2{
             padding-top: 0.5vh;
             font-size: 10pt;
-            
+            color: #E7222E;
         }
         p{
             font-size: 10pt;
             padding: 2px;
+            color: whitesmoke;
         }
         .btn{
             margin-bottom: 2vh;
+        }
+    }
+}
+@media only screen and (min-width: 768px) {
+    #AboutSection{
+        height: 40vh;
+        background-color: #16588E;
+        text-align: center;
+        padding-top: 5vh;
+        padding-left: 10px;
+        padding-right: 10apx;
+        h1{
+            font-size: 24pt;
+            font-weight: bold;
+            color: #E7222E;
+        }
+        h2{
+            padding-top: 0.5vh;
+            font-size: 20pt;
+            color: #E7222E;
+            
+        }
+        p{
+            font-size: 15pt;
+            padding: 2px;
+            color: whitesmoke;
+        }
+        .btn{
+            margin-bottom: 2vh;
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #AboutSection{
+        height: 60vh;
+        background-color: #16588E;
+        text-align: center;
+        padding-top: 5vh;
+        padding-left: 10px;
+        padding-right: 10apx;
+        h1{
+            font-size: 30pt;
+            font-weight: bold;
+            color: #E7222E;
+            
+        }
+        h2{
+            padding-top: 3vh;
+            font-size: 26pt;
+            color: #E7222E;
+            
+        }
+        p{
+            font-size: 22pt;
+            padding-left: 5rem;
+            padding-right: 5rem;
+            padding-top: 2rem;
+            color: whitesmoke;
+            
+        }
+        .btn{
+            margin-bottom: 2vh;
+            font-size: x-large;
         }
     }
 }

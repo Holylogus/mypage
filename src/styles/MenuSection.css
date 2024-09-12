@@ -79,3 +79,92 @@
     }
 
 }
+
+@media only screen and (min-width: 768px) {
+    #MenuSection{
+        height: 20vh;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        .card{
+            position: relative;
+            top: -4rem;
+            height: 11.5rem;
+            max-width: 170px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 5vh;
+            margin-bottom: 5vh;
+            background-color: #E7222E;
+            border: 2px solid black;
+        }
+        .card-img-top{
+            height: 50px;
+            max-width: 50px;
+            align-self: center;
+            padding-top: 2px;
+        }
+        .card-text{
+            text-align: center;
+            color: black;
+            font-size: 12pt;
+        }
+        
+        .card-title{
+            text-align: center;
+            color: black;
+            padding-bottom: 0;
+            font-size: 14pt;
+            font-weight: bolder;
+        }
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    #MenuSection{
+        height: 25vh;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        .card{
+            position: relative;
+            top: -4rem;
+            height: 15rem;
+            max-width: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 5vh;
+            margin-bottom: 5vh;
+            background-color: #E7222E;
+            border: 2px solid black;
+        }
+        .card-img-top{
+            height: 100px;
+            max-width: 100px;
+            align-self: center;
+            padding-top: 2px;
+        }
+        .card-text{
+            text-align: center;
+            color: black;
+            font-size: 14pt;
+        }
+        
+        .card-title{
+            text-align: center;
+            color: black;
+            padding-bottom: 0;
+            font-size: 16pt;
+            font-weight: bolder;
+        }
+    }
+
+}
+
