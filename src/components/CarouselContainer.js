@@ -9,7 +9,7 @@ import "../styles/CarouselContainer.css"
 export default function CarouselContainer() {
     return(
         <div id="CarouselContainer">
-            <Carousel>
+            <Carousel indicators="false">
                 <Carousel.Item>
                 <img
                         className="d-block w-100 h-100"
