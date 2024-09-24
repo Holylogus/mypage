@@ -8,6 +8,7 @@ import AutoService from './pages/AutoService';
 import MotorGeneral from './pages/MotorGeneral';
 import Diagnostic from './pages/Diagnostic';
 import Maintence from './pages/Maintenance';
+import Registration from './pages/Registration';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
     <Routes>
       <Route path='/' element={<GuestLayout/>}>
         <Route index element={<HomePage/>}/>
-        <Route path='/login' element={<Login/>}/>
+        <Route path='/Login' element={<Login/>}/>
+        <Route path='/Registration' element={<Registration/>}/>
         <Route path='/autoservice' element={<AutoService/>}/>
         <Route path='/MotorGeneral' element={<MotorGeneral/>}/>
         <Route path='/Diagnostic' element={<Diagnostic/>}/>

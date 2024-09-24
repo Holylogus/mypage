@@ -30,7 +30,7 @@ export default function Navigation(){
            <Nav.Item>
             Kapcsolat
            </Nav.Item>
-           <Button variant="danger" onClick={() => console.log("Primary")}>
+           <Button variant="danger" onClick={() => navigate("/Login")}>
             Bejelentkezés
            </Button>
            

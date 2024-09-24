@@ -1,7 +1,7 @@
 @media only screen and (max-width: 576px) {
     #CarouselContainer{
         .carousel-item{
-            height: 250px;
+            height: 15.6rem;
         }
     }
 }
