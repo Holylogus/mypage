@@ -6,6 +6,7 @@ export default function Registration(){
 
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
+    const [passwordConfirm, setPasswordConfirm] = useState("");
     const [name, setName] = useState("");
     const [birthDate, setBirthDate] = useState("");
     const [phoneNumber, setPhoneNumber] = useState("");
@@ -22,6 +23,7 @@ export default function Registration(){
             phoneNumber: phoneNumber,
             email: email,
             password: password,
+            passwordConfirm: passwordConfirm,
             role: "user"
         };
         console.log(data);
@@ -51,6 +53,10 @@ export default function Registration(){
                     <Form.Label>Jelszó:</Form.Label>
                     <Form.Control type="password" placeholder="Enter password"  value={password} onChange={(e)=>{
                         setPassword(e.target.value)
+                    }}/>
+                    <Form.Label>Jelszó Újra:</Form.Label>
+                    <Form.Control type="password" placeholder="Enter password"  value={passwordConfirm} onChange={(e)=>{
+                        setPasswordConfirm(e.target.value)
                     }}/>
                     <Button variant="danger" type='submit'> Bejelentkezés
                     </Button>
