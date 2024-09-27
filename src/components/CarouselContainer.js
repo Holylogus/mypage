@@ -9,7 +9,7 @@ import "../styles/CarouselContainer.css"
 export default function CarouselContainer() {
     return(
         <div id="CarouselContainer">
-            <Carousel indicators="false">
+            <Carousel>
                 <Carousel.Item>
                 <img
                         className="d-block w-100 h-100"
@@ -26,7 +26,7 @@ export default function CarouselContainer() {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100 h-100"
+                        className="d-block w-100 h-100"w
                         src={c3}
                         alt="Third slide"
                     />
