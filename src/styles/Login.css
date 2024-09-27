@@ -1,0 +1,48 @@
+@media only screen and (max-width: 576px) {
+  #Login {
+    background-color: black;
+    height: 100vh;
+    padding: 1rem;
+    padding-top: 20vh;
+
+    .formContainer {
+      background-color: #16588e;
+      border-radius: 1rem;
+      padding-top: 0.5rem;
+      padding-left: 0.5rem;
+      padding-bottom: 1rem;
+      color: whitesmoke;
+    }
+    .form-label {
+      padding-bottom: 0.5rem;
+      padding-left: 40%;
+      font-weight: bolder;
+      font-size: large;
+    }
+    .form-control {
+      margin-bottom: 1rem;
+    }
+    .btn{
+        margin-left: 25vw;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        font-size: large;
+        font-weight: bold;
+    }
+    a{
+        text-decoration: none;
+        color: #E7222E;
+        padding-left: 32vw;
+        margin-bottom: 1rem;
+        font-weight: bold;
+    }
+  }
+}
+
+@media only screen and (min-width: 576px) {
+}
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 1200px) {
+}

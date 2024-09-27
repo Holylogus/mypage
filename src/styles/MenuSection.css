@@ -82,7 +82,7 @@
 
 @media only screen and (min-width: 768px) {
     #MenuSection{
-        height: 20vh;
+        height: 17vh;
         background-color: black;
         display: flex;
         flex-direction: row;
@@ -90,9 +90,9 @@
         justify-content: space-evenly;
         .card{
             position: relative;
-            top: -4rem;
-            height: 11.5rem;
-            max-width: 170px;
+            top: -6vh;
+            height: 11rem;
+            max-width: 10.8rem;
             display: flex;
             flex-direction: column;
             justify-content: center;
